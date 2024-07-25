@@ -2,4 +2,6 @@ name: "py-calc"
 title: "Simple Calculator Implementation with Python"
 description: Simple calculator implementation with Python print function.
 version: 0.1.0
-author: Marcel Wijaya
+author: Marcel Wijaya, minor edits by Stephen Meech
+tags: ["math", "utility", "calculator", "arithmetic"]
+homepage: https://github.com/marcelwijayacc/hub/tree/patch-1

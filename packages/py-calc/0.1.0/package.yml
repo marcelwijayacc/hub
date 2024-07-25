@@ -1,9 +1,9 @@
 #py-calc: package.yml
 matches:
-  - regex: "\\((?P<argz>.*?)\\)="
+  - regex: \((?P<argz>.*?)\)=
     replace: "{{output}}"
     vars:
       - name: output
-        type: shell
+        type: script
         params:
-          cmd: "python3 -c 'print({{argz}})'"
+          args: [python3, -c, 'print({{argz}})']
